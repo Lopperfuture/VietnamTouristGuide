@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageTour"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="230dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/textTourist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="35dp"
+        android:text="Vietnam Tourist Guide"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/imageTour"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonTourist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Begin"
+        app:layout_constraintTop_toBottomOf="@+id/textTourist"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonRefer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Reference"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTourist"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Vietnam Tips"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRefer"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Exit"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTips"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

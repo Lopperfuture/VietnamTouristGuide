@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">TouristGuideApp</string>
+
+    <!-- Names of the categories -->
+
+    <string name="Vietnamese">Learn Some Vietnamese</string>
+    <string name="street">Careful when cross the street</string>
+    <string name="helmet">Always Wear a Helmet</string>
+    <string name="sidewalk">Can’t walk on the Sidewalk</string>
+    <string name="weather">Prepared for the Weather</string>
+    <string name="visacard">Arrange Your Visa</string>
+
+</resources>
